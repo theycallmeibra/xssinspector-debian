@@ -1,0 +1,11 @@
+Source: xssinspector
+Section: utils
+Priority: optional
+Maintainer: theycallmeibra <ibrahimmammedov7@gmail.com>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.5.0
+
+Package: xssinspector
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Automated package for xssinspector
